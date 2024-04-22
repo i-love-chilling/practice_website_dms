@@ -1,0 +1,44 @@
+<html>
+    
+    <head>
+        <title>
+            lia is suoer cool
+        </title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"> 
+        </script>
+
+        <b> Water. Water is all i know. Water is all i crave
+            <p></p>
+            
+    </head>
+
+    <body style="background-color: aquamarine;">  
+
+        <img id="skele1" src="asdfuiumages/skeleton.jpeg" width="400">
+        <img id="water" src="asdfuiumages/bubble.jpeg" width="500">
+        <img id="traffic" src="asdfuiumages/traffic.jpeg" width="500">
+
+        <script>
+            var skeleton= new buzz.sound("sound/skeleton.mp3");
+            var water= new buzz.sound("sound/wet.mp3");
+            var traffic= new buzz.sound("sound/traffic.mp3");
+            
+            window.onload =function() {
+                document.getelementbyId('skele1').addEventListener('mouseover', function () {skeleton.play();});
+                document.getelementbyId('wet').addEventListener('mouseover', function () {water.play();});
+                document.getelementbyId('traffic').addEventListener('mouseover', function () {traffic.play();});
+
+
+
+            }
+        </script>
+    </body>
+    
+    
+    
+    
+    
+    
+    
+</html>
